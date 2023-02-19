@@ -12,7 +12,7 @@ const Docusign = () => {
     if(userLoggedIn){
         return (
             <div>
-                <h1>Here is the document you need to sign</h1>
+                <h1>Here is the document that needs to be sign</h1>
                 <a href="/pdf/pdf_health_first.pdf" download> Health First PDF</a>
             </div>
         )
